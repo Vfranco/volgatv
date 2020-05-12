@@ -72,3 +72,37 @@ body {
 .bg-danger-bar {
     background-color: #dc3545!important;
 }
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: block;
+}
+
+@media (max-width: 415px){
+    .big {
+        font-size:10em;
+    }
+
+    .big-arrow {
+        font-size: 6em;
+    }
+
+    .number {
+        font-size: 6em;
+    }
+
+    .title-white-upper {
+        font-size: 1.6em;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}
