@@ -106,3 +106,21 @@ body {
         display: block;
     }
 }
+
+@media (max-height: 800px){
+    .big {
+        font-size:11em;
+    }
+
+    .big-arrow {
+        font-size: 7em;
+    }
+
+    .number {
+        font-size: 7em;
+    }
+
+    .title-white-upper {
+        font-size: 3em;
+    }
+}
