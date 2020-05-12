@@ -1,0 +1,35 @@
+<app-navbar></app-navbar>
+<div class="my-container-tv m-top-dashboard">    
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center mb-5">
+            <h1 class="title-white-upper">Ocupación</h1>
+            <div class="panel-icon">
+                <i class="fas fa-users big"></i>
+            </div>
+            <div class="number ocupacion">{{ocupationDay}}</div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center mb-5">
+            <h1 class="title-white-upper">Disponibilidad</h1>
+            <div class="panel-icon">
+                <i class="fas fa-male big mr-5"></i>
+                <i class="fas fa-forward big-arrow mt-5"></i>
+            </div>
+            <div class="number ocupacion">{{capacityAvailable}}</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="progress">
+                <div 
+                    class="progress-bar"
+                    [ngClass]="{'bg-success' : percentOccupationDay < 45, 'bg-warning' : percentOccupationDay >= 45, 'bg-danger' : percentOccupationDay >= 90}"
+                    role="progressbar"
+                    [attr.aria-valuenow]="percentOccupationDay"
+                    [attr.aria-valuenow]="0"
+                    [attr.aria-valuenow]="100"
+                    [style.font-size]="'30px'"
+                    [style.width]="percentOccupationDay+'%'">{{percentOccupationDay}}%</div>
+            </div>
+        </div>
+    </div>
+</div>

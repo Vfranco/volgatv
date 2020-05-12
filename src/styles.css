@@ -1,1 +1,74 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #2f4050 !important;
+}
+
+.m-top {
+    margin-top: 100px;
+}
+
+.m-top-dashboard {
+    margin-top: 50px;
+}
+
+.my-container {
+    width: 800px;
+    margin: 130px auto;
+}
+
+.my-container-tv {
+    max-width: 1800px;
+    margin: 50px auto;
+}
+
+.lb-white {
+    color: #fff;
+}
+
+.title-white-upper {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3.5em;
+}
+
+.fas {
+    color: #fff !important;
+}
+
+.big {
+    font-size: 20em;
+}
+
+.big-arrow {
+    font-size: 10em;
+}
+
+.panel-icon {
+    margin-top: 25px;
+}
+
+.number {
+    margin-top: 50px;
+    font-size: 12em;    
+    font-weight: 600 !important;
+}
+
+.ocupacion {
+    color: greenyellow;
+}
+
+.disponibilidad {
+    color: red;
+}
+
+.progress {
+    height: 3rem !important;
+}
+
+.bg-warning-bar {
+    background-color: #ffc107!important;
+}
+
+.bg-danger-bar {
+    background-color: #dc3545!important;
+}
